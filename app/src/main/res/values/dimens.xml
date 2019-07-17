@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_vertical_card">18dp</dimen>
+    <dimen name="elevation_card">16dp</dimen>
+    <dimen name="grid_icon_size">64dp</dimen>
+    <dimen name="article_card_image_height">128dp</dimen>
+    <dimen name="width_0dp">0dp</dimen>
+    <dimen name="horizontal_margin_padding">16dp</dimen>
+</resources>
