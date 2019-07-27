@@ -20,6 +20,7 @@ class MainViewModel(private val getDataUseCase: GetDataUseCase): ViewModel(){
                 apiResponse.postValue(apiData)
                 state.postValue(State("success",null))
             } catch (error: Exception) {
+                error.printStackTrace()
                 state.postValue(State("error",error.message ?: "Error occured"))
             }
         }
